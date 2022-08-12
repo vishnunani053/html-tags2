@@ -136,7 +136,7 @@ else{
 
 
 
-   //wap to print the given three numbers  in ascending order
+   //wap to print the given three numbers  in decending order
     /* var a=22;
      var b=8;
      var c=9;
@@ -171,7 +171,7 @@ else{
 
 
 
-     //wap to print the given three numbers  in descending order
+     //wap to print the given three numbers  in ascending order
       
     /* var a=20;
      var b=95;

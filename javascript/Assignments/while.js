@@ -1,0 +1,59 @@
+//wap to print 1 to 10 numbers
+/*
+var i=1
+while(i<=10){
+    console.log(i);
+   i= i+1;
+} */
+
+
+
+/*
+//wap to print 10 to 1 numbers
+var i=10;
+
+while(i>=1){
+    console.log(i);
+    i=i-1;
+}   
+*/
+
+
+
+
+
+//wap to print 1 to 10 even numbers
+/*
+ var i=2;
+ while(i<=10){
+    console.log(i);
+    i=i+2;
+ }*/
+
+
+
+ // write a program first ten multiples of 4
+ /* 
+ var i=4;
+ while(i<=40){
+    console.log(i);
+    i=i+4
+ }*/
+
+
+
+
+ //wap program for 6 table
+/*
+ var i=1;
+ while(i<=10){
+    console.log("6*", i, "=", 6*i);
+    i=i+1
+ }   */
+
+
+
+
+ //wap for factors of 24
+
+ var i=
