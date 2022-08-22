@@ -1,0 +1,125 @@
+
+<html>
+    <head>
+        <title>cricket team</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="form-group">
+                <form class="mt-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <input type="text" class="form-control" placeholder="Name"> 
+                             </div>
+                             <div class="col-3">
+                                 <input type="text" class="form-control" placeholder="Role">
+                             </div>
+                             <div class="col-3">
+                                 <input type="text" class="form-control" placeholder="Age">
+                             </div>
+                             <div class="col-3"><button type="button" class="btn btn-primary">Submit</button></div>
+                        
+                        </div>
+                    </div>
+                   <div class="mt-5">
+                                <table class="table">
+                                    <thead style="background-color:rgb(13, 209, 206) ;">
+                                    <tr>
+                                        <td>S.no</td>
+                                        <td>Name</td>
+                                        <td>Role</td>
+                                        <td>Age</td>
+                                        <td>edit</td>
+                                        <td>delete</td>
+                                    </tr>
+                           </thead>
+                           <tbody style="background-color:whitesmoke;">
+                            <tr>
+                                <td>1</td>
+                                <td>Dhoni</td>
+                                <td>All rounder</td>
+                                <td>40</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>KL Rahul</td>
+                                <td>Batsman</td>
+                                <td>29</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Bhuvneswar</td>
+                                <td>Bowler</td>
+                                <td>30</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Rohit sharma</td>
+                                <td>All rounder</td>
+                                <td>35</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Virat Kohli </td>
+                                <td>Batsman</td>
+                                <td>33</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Bhumra</td>
+                                <td>Bowler</td>
+                                <td>32</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                           </tbody>
+                       </table>
+                    </div>
+                    <div class="container mt-4" >
+                        <div class="row">
+                               <div class="col-3">
+                                    <button id="abc" onclick="bat()" type="button" class="btn btn-danger">Batting</button>
+                                    <script>
+                                        function bat() {
+                                            document.getElementById('abc').style.backgroundColor='yellow'
+                    
+                                        }
+                                    </script>
+                                </div>
+                                <div class="col-3">
+                                    <button id="abcd" ondblclick="bowl()" type="button" class="btn btn-secondary">Bowling</button>
+                                    <script>
+                                        function bowl() {
+                                            document.getAnimations('abcd').style.backgroundColor='blue'
+                                            
+                                        }
+                                    </script>
+                                </div>
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-warning">All rounder</button>
+                                </div>
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-info">All</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </form>
+               </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -75,7 +75,7 @@ for (let i = 0; i <= contacts.length - 1; i++) {
 
 
 
-/*
+
 let names = ['Rahul', 'Sonia', 'Priyanka', 'Modi']
 //index       0       1         2          3 
 
@@ -84,10 +84,10 @@ while (i <= 3) {
     console.log(names[i]);
     i++
 }
-*/
 
 
 
+/*
 let array=[10,20,30,50,60,40,80,90,40,60,70,8,09,09,7,0,0,90,"name",[],{}]
 console.log(array)
-console.log(array.length);
+console.log(array.length);*/
