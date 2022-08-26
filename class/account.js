@@ -60,3 +60,27 @@ emp1.salary()
 emp1.designation()
 emp1.contact()
 emp1.email()
+
+
+class cricket{
+    id=007
+     name(){
+        console.log("msd");
+     }
+     role(){
+        console.log("bats man");
+     }
+     centuries(){
+        console.log("90");
+     }
+     role_in_team(){
+        console.log("captain");
+     }
+}
+
+let p1=new cricket()
+console.log(p1.id);
+p1.name()
+p1.role()
+p1.role_in_team()
+p1.centuries()

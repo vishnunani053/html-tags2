@@ -1,4 +1,4 @@
-/*class employee{
+class employee{
     id=101
     name="rahul gandhi"
     get_emp(){
@@ -21,7 +21,7 @@ class wish{
 let r1=new wish
 let r2=new wish
 console.log(r1.msg);
-console.log(r2.get_wish());*/
+console.log(r2.get_wish());
 
 
 class student{
