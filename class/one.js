@@ -1,12 +1,12 @@
-class wish{
+class Wish{
  
    
 }
-console.log( new wish());
-console.log( new wish());
-console.log( new wish());
-console.log( new wish());
-console.log( new wish());
+console.log( new Wish());
+console.log( new Wish());
+console.log( new Wish());
+console.log( new Wish());
+console.log( new Wish());
 
 
 
