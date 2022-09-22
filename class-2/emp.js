@@ -1,4 +1,4 @@
-class Employee{
+/*class Employee{
     Eid;
     Ename;
     Esalary;
@@ -113,7 +113,7 @@ e2.setEname("priyanka gandhi")
 console.log(e2);
 console.log(e2.getEid());
 console.log(e2.getEname());
-
+*/
 
 
 class Employee{
@@ -135,6 +135,7 @@ class Employee{
         return this.ename
     }
 }
+
 let e1=new Employee()
 e1.setEid(101);
 e1.setEname("vishnu")
@@ -149,7 +150,7 @@ console.log(e2);
 console.log(e2.getEid());
 console.log(e2.getEname());
 
-
+/*
  class Employee{
     eid;
     ename;
@@ -170,4 +171,4 @@ let e2=new Employee(102,"mike tyson",50000,"python_dev")
 console.log(e1);
 console.log(e2);
 e1.get_detalis()
-e2.get_detalis()
+e2.get_detalis()*/
