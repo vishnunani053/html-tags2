@@ -39,7 +39,7 @@ console.log(a1);
 let a2=new employee(102,"sonia" ,50000)
 console.log(a2);
 a1.get_emp()
-*/
+
 
 class Student{
  
@@ -62,3 +62,16 @@ console.log(s1);
 console.log(s2);
 s1.get_details()
 s2.get_details()
+*/
+
+class emp{
+
+    constructor(id,name,salary){
+ 
+        this.eid=id;
+        this.ename=name;
+        this.esalary=salary
+    }
+}
+let emp1=new emp(101,"rahul",45000)
+console.log(emp1);

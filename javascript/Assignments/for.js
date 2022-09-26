@@ -2,7 +2,7 @@
 /*
 for(let i=1;i<=15;i=i+1){
     console.log(i)
-} */
+} 
 
 
 
@@ -86,7 +86,18 @@ for(let i=1;i<=num;i=i+1){
 
 
 
+let num=20;
+let a=0
+let b=1
+c=a+b;
+for (let i = 1; i<=num; i=i+1) {
+   console.log(a);
+   
+a=b;
+b=c;
+c=a+b
 
+}
 
 
 

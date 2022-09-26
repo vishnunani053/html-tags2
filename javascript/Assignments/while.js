@@ -176,7 +176,7 @@ while (i<=40) {
 
    console.log("4*",i,"=",4*i);
 i=i+1
- }*/
+ }
 
 
 
@@ -189,8 +189,13 @@ i=i+1
    if(num%i==0)
    console.log(i);
  }
+*/
+
+let i=1
+while (i<=10) {
+   console.log("5*",i,"=",5*i);
+   i++
+}
 
 
-
- 
 
