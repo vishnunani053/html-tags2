@@ -23,7 +23,7 @@ c2.new_account()
 */
 
 
-class account {
+/*class account {
     min_bal=500
     new_account() {
     console.log("account created sucessfully");
@@ -40,5 +40,11 @@ class current_account extends savings_account{
 }
 }
 let c1=new current_account()
-c1.withdrawal()
+c1.withdrawal()*/
+
+
+
+class acount{
+    min_bal=1000
+}
 
