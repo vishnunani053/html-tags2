@@ -4,7 +4,7 @@
         console.log("food delivered");
     }
 }
-module.exports= products*/
+module.exports= products
 
 
 class govt{
@@ -16,4 +16,11 @@ class govt{
    }
 }
 
-module.exports=govt
+module.exports=govt*/
+
+
+
+let tax=100
+let discount=200
+
+module.exports={tax,discount}

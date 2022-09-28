@@ -5,7 +5,7 @@ class goods extends products{
     }
 }
 let r1=new goods()
-console.log(r1.chips);*/
+console.log(r1.chips);
 
 
 const amount=require("./central")
@@ -21,5 +21,9 @@ money(){
 }
 let r1=new total_amount()
 r1.amount()
+*/
 
 
+const {tax,discount}=require("./central")
+console.log(tax);
+console.log(discount);
