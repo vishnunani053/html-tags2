@@ -507,9 +507,16 @@ let data=[
 //     }
 // }
 
-let new_data=data.filter((emp)=>{
-    if(emp.id==100){
-return emp
-    }
-})
-console.log(new_data);
+ let new_data=data.filter((emp)=>{
+     if(emp.id==100){
+ return emp
+     }
+ })
+ console.log(new_data);
+
+// let new_data=data.map((emp)=>{
+//     if(emp.id==100){
+//         return emp
+//     }
+// })
+// console.log(new_data);

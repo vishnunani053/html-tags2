@@ -66,15 +66,15 @@ let  cars = [{ car_Name: "Maruthi Swift", price: 800000, color: "red" },
 //  })
 
 
- //    for(car of cars) {
-//         if(car.brand=="Suzuki"){
-// console.log(car);
-//         }
-//     }
+//      for(car of cars) {
+//          if(car.brand=="Suzuki"){
+//  console.log(car);
+//          }
+//      }
 
-let new_cars=cars.filter((car)=>{
-    if(car.color=="black"){
-       return car
-    }
-})
-console.log(new_cars);
+ let new_cars=cars.filter((car)=>{
+     if(car.color=="black"){
+        return car
+     }
+ })
+ console.log(new_cars);
