@@ -1,7 +1,7 @@
 import React from "react"
 class Actor extends React.Component{
     film_actor={
-        a_name:"rajani",
+        a_name:"rajni",
         a_age:70,
         a_sal:"100cr"
     }
